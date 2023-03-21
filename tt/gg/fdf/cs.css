@@ -1,0 +1,61 @@
+.SubBtn {
+  background-color: red;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  transition: opacity 0.15s;
+  margin-right: 5px;
+  padding-top: 10px;
+}
+.SubBtn:hover {
+  opacity: 0.8;
+  color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.SubBtn:active {
+  opacity: 0.5;
+}
+.joinBtn {
+  background-color: white;
+  color: rgb(12, 163, 233);
+  border-color: rgb(12, 163, 233);
+  height: 35px;
+  width: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 5px;
+}
+.joinBtn:hover {
+  opacity: 0.8;
+  color: rgb(12, 163, 233);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.joinBtn:active {
+  opacity: 0.5;
+}
+
+.twbtn {
+  background-color: rgb(54, 134, 224);
+  color: white;
+  border: blue;
+  height: 35px;
+  width: 70px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.twbtn:hover {
+  opacity: 0.8;
+  color: whitesmoke;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.twbtn:active {
+  opacity: 0.5;
+}

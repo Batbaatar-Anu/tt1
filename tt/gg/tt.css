@@ -1,0 +1,127 @@
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+    .thumbnail {
+    width: 300px;
+    display: block;
+    }
+    .search-bar {
+    display: block;
+    }
+    .video-title {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 12px;
+    }
+    .profile-picture {
+    width: 40px;
+    border-radius: 50px;
+    }
+    
+    .video-author,
+    .video-stats {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+    }
+    
+    .video-author {
+    margin-bottom: 4px;
+    }
+    .video-preview{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    }
+    .thumbnail-row{
+    margin-bottom: 12px;
+    }
+    .channel-picture{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+    }
+    .video-info{
+    display: inline-block;
+    width: 200px;
+    }
+    
+    .grid{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin-right: 50px;
+    margin-top: 50px;
+    }
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 55px;
+}
+.zuun{
+    
+display:flex;
+    align-items: center;
+
+}
+.hamburgr{
+    height: 24px;
+    margin-inline: 24px;
+}
+.youtubb{
+    height: 24px; 
+    
+    
+}
+.dund{
+    
+    flex: 1;
+    max-width: 300px;
+    margin-left: 75px;
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    height: 32px;
+    border-radius: 45px 0 0 45px;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.2);
+    padding-left: 10px;
+}
+.searchbttn{
+    height: 36px;
+    width: 38px;
+    padding-top: 5px;
+    border-radius: 0 45px 45px 0;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.2);
+}
+.voicesearch{
+    height: 36px;
+    width: 38px;
+    padding-top: 5px;
+    background-color: transparent;
+    
+    border: none;
+    padding-top: 2px;
+}
+
+
+.baruun{
+    width: 200x;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.upload, .apps, .notif, .chnl{
+ height: 25px;
+}

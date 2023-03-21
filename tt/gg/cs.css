@@ -1,0 +1,40 @@
+body {
+  background-color: #f3d0fa;
+}
+p {
+  font-family: Arial;
+}
+.article-title {
+  font-weight: bold;
+  font-size: 18px;
+  width: 280px;
+  line-height: 24px;
+  margin-bottom: 5px;
+  color: white;
+}
+.time-starts {
+  font-weight: 14px;
+  color: brown;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.auther {
+  font-size: 20px;
+  color: rgb(0, 60, 170);
+  margin-top: 0;
+  display: inline-block;
+}
+.description {
+  font-size: 14px;
+  color: cornflowerblue;
+  margin-top: 0;
+  line-height: 20px;
+  width: 280px;
+}
+.thumbnail {
+  width: 400px;
+}
+.thumbnail,
+.auther {
+  vertical-align: middle;
+}
